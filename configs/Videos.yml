@@ -1,0 +1,29 @@
+eureka:
+    client:
+        service-url:
+            defaultZone: http://localhost:8761/eureka/
+logging:
+    level:
+        org:
+            hibernate:
+                SQL: DEBUG
+            springframework:
+                web:
+                    servlet:
+                        DispatcherServlet: DEBUG
+server:
+    port: 8084
+spring:
+    datasource:
+        driver-class-name: com.mysql.cj.jdbc.Driver
+        password: springpoc
+        url: jdbc:mysql://${MYSQL_HOST:arbex.adm.br}:3306/arbexa09_springpoc?useSSL=false
+        username: arbexa09_springpoc
+    jpa:
+        hibernate:
+            ddl-auto: update
+        show-sql: true
+    servlet:
+        multipart:
+            max-file-size: 5MB
+            max-request-size: 5MB
