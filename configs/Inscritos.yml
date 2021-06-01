@@ -1,0 +1,11 @@
+spring.jpa.hibernate.ddl-auto=update
+logging.level.org.hibernate.SQL=DEBUG
+spring.datasource.url=jdbc:mysql://${MYSQL_HOST:arbex.adm.br}:3306/arbexa09_springpoc?useSSL=false
+spring.datasource.username=arbexa09_springpoc
+spring.datasource.password=springpoc
+spring.datasource.driver-class-name=com.mysql.cj.jdbc.Driver
+spring.jpa.show-sql=true
+spring.application.name=Inscritos
+server.port=8081
+eureka.client.service-url.defaultZone=http://localhost:8761/eureka/
+logging.level.org.springframework.web.servlet.DispatcherServlet=DEBUG
