@@ -25,6 +25,6 @@ spring:
         hibernate:
             ddl-auto: update
         show-sql: true
-a1: teste AAAA
-b2: teste BBBBB
-c3: teste CCCCCC
+a1: teste EEEE
+b2: teste FFFF
+c3: teste GGGGGG
