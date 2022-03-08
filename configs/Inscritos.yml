@@ -25,6 +25,6 @@ spring:
         hibernate:
             ddl-auto: update
         show-sql: true
- a: teste
- b: teste2
- c: teste3
+a: teste
+b: teste2
+c: teste3
